@@ -57,6 +57,10 @@ header a {
     text-decoration: none;
     color: black;
 }
+.header-logga span {
+    display: inline-block;
+    transform: rotateZ(8deg);
+}
 footer {
     justify-content: center ;
 }
