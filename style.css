@@ -97,7 +97,7 @@ article img {
 }
 
 /* Stora länkar på mobil och surfplatta */
-@media (width <= 768px) {
+@media (pointer: coarse) {
     main a {
         padding: 0.7em;
         display: inline-block;
