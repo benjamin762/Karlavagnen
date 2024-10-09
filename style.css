@@ -5,3 +5,13 @@ body {
     margin: 0;
 }
 
+.skip-link {
+    position: absolute;
+    left: -100%;
+    background-color: whitesmoke;
+    padding: .5em;
+    margin: 1em;
+}
+.skip-link:focus {
+    left: 0;
+}
