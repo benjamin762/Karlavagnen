@@ -22,6 +22,7 @@ p {
     background-color: whitesmoke;
     padding: .5em;
     margin: 1em;
+    z-index: 1;
 }
 .skip-link:focus {
     left: 0;
