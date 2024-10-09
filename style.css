@@ -12,6 +12,9 @@ body {
 h1, h2 {
     text-transform: uppercase;
 }
+p {
+    font-size: clamp 16px, 1rem, 40px);
+}
 
 .skip-link {
     position: absolute;
