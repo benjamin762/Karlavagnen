@@ -103,3 +103,19 @@ article img {
         display: inline-block;
     }
 }
+
+/* Utskrift */
+@media print {
+    article, section {
+        min-height: min-content;
+    }
+
+    .tillbaka-länk {
+        display: none;
+    }
+
+    body, header, footer {
+        background-color: white;
+        color: black;
+    }
+}
