@@ -3,6 +3,14 @@ body {
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
     margin: 0;
+
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1, h2 {
+    text-transform: uppercase;
 }
 
 .skip-link {
@@ -14,4 +22,63 @@ body {
 }
 .skip-link:focus {
     left: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+/* Header och footer */
+header, footer {
+    display: flex;
+    align-items: baseline;
+    background-color: silver;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav ul {
+    display: flex;
+    gap: 2em;
+}
+.navbar-vald {
+    border: 2px solid black;
+}
+header a {
+    padding: 1em;
+}
+.header-logga {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.header-logga a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Main */
+article, section {
+    background-color: white;
+    color: black;
+    margin: 30px;
+    padding: 30px;
+
+    min-height: 90vh;
+}
+article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4, min-content);
+    grid-auto-flow: dense;
+}
+article h2, .tillbaka-länk {
+    grid-column: span 2;
+}
+article div {
+    grid-row: span 2;
+}
+article img, article table {
+    grid-column: 2;
 }
